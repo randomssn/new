@@ -1,0 +1,30 @@
+PERL
+About PERL 
+*PERL stands for practical extraction and reporting language
+*stable,cross platform programming language
+*text manipulation,system administration,web development,GUI etc
+*PERL CGI module makes handling HTML forms easier
+*PERL is interpreted (compiled to bte code and interpreted)
+
+PERL CGI Programming
+CGI stands for set of standards that defines how information is exchanged between web server and script
+
+PERL Installation
+
+sudo apt-get update && sudo apt-get install perl
+perl -v (in terminal,gives version if installed properly)
+
+RUNNING A STAND ALONE PERL SCRIPT :
+perl <filename>
+
+EXECUTING A PERL CGI PROGRAM (web based application using perl)
+Place the perl file in /usr/lib/cgi-bin
+Then provide required permissions to file :
+sudo chmod a+x /usr/lib/cgi-bin/filename.pl
+Then go to browser and give
+localhost/filename.pl
+Hurray :D It gives your web page !!!
+
+
+
+

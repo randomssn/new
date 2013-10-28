@@ -1,0 +1,23 @@
+Simplified Fuse 
+Step 1: Installation :
+Install FUSE for python the command is :
+sudo apt-get install python-fuse
+Step 2: Create your python file that will perform FUSE operations ,namely MyFS.py:
+Step 3:Make the python file executable using the command :
+chmod 755 MyFS.py
+Step 4: Create the direcory which will act as mountpoint using the command :
+mkdir myfs
+Step 5: Mount the file system using the command :
+./MyFS.py myfs
+Step 6:Now move to the folder myfs and you should see ls -a gives .,.. (Something is getting mounted bcoz of ur code) and in the computer section you can see myfs mounted along with filesystem and other stuff 
+cd myfs
+ls -a
+Step 7:To unmount the filesystem ,give
+cd ..
+fusermount -u myfs
+Step 8:Now when you check your file explorer myfs will be missing(ie unmounted)
+Step 9:Hurray ! Its done :D :D 
+
+
+
+

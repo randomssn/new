@@ -1,0 +1,42 @@
+PHP 
+About PHP
+PHP is a server scripting language, and is a powerful tool for making dynamic and interactive Web pages quickly.
+
+PHP is a widely-used, free, and efficient alternative to competitors such as Microsoft's ASP.
+
+    PHP is an acronym for "PHP Hypertext Preprocessor"
+    PHP is a widely-used, open source scripting language
+    PHP scripts are executed on the server
+    PHP costs nothing, it is free to download and use
+
+    PHP files can contain text, HTML, CSS, JavaScript, and PHP code
+    PHP code are executed on the server, and the result is returned to the browser as plain HTML
+    PHP files have extension ".php"
+
+    PHP can generate dynamic page content
+    PHP can create, open, read, write, and close files on the server
+    PHP can collect form data
+    PHP can send and receive cookies
+    PHP can add, delete, modify data in your database
+    PHP can restrict users to access some pages on your website
+    PHP can encrypt data
+
+PHP Installation Steps :
+1.Install apache2 web server 
+ sudo apt-get install apache2
+
+2.Install LAMP stack and dependencies :
+
+sudo apt-get install mysql-server libapache2-mod-auth-mysql 
+php5-mysql
+
+sudo mysql_install_db
+
+sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
+
+PHP Execution :
+Add the php files to var/www directory 
+view the php files in browser using localhost/filename.php
+
+
+

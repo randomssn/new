@@ -1,0 +1,18 @@
+1. Design a PHP file with insert, update, edit and delete operations using MySQL database. 
+Place all the files -home,insert_details,insert,display_details,update,edit in var/www directory
+
+
+
+SQL Table :(For opening mysql ..goto terminal->mysql -u root -p
+Enter password
+create table student_details (register_number varchar(10), name varchar(10), branch varchar(3), batch varchar(10),address varchar(30),email varchar(20));
+2.Place all these files in var/www folder
+3.Change the password from random to ssn I think ..whatever database password is given in files insert.php,search.php,display_student_details.php
+4.Go to browser ..and give localhost/home.php
+You should see the home page with all options 
+
+2.Google Book search for a keyword like say "Books in a Particular location" eg Books in amazon .. You should develop a PHP program to extract the google search results ..and display in alphabetical order of book names... 
+Place the file webpage.php in var/www directory 
+Go to browser ..and give localhost/webpage.php
+Displays the elements in the <a> tag by constructing DOM tree from landmark.net web site :P 
+

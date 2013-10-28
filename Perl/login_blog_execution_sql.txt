@@ -1,0 +1,33 @@
+##################################################################
+#1 . To create a user registration form and to validate username and password using Perl Scripts by comparing with values stored in MySQL database 
+##################################################################
+
+####################################################################
+#EXECUTION STEPS :
+Create the mysql database
+In Terminal mysql -u root -p 
+Database script is :
+		create database usersdb;
+		use usersdb;
+ 		create table users
+  		(username varchar(20),
+     		password varchar(20));
+		insert into users values('fosslab','perl');
+###################################################################
+Place this file login.pl in /usr/lib/cgi-bin directory
+Change the permissions for the file using
+	 sudo chmod a+x /usr/lib/cgi-bin/login.pl
+Go to the web browser and type localhost/login.pl
+and the web page appears
+###################################################################
+MySQL db script for blog :
+		create database blog;
+		use blog;
+		create table entries
+		(name varchar(40),
+		comment varchar(500));
+####################################################################
+		
+
+
+

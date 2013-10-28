@@ -1,0 +1,27 @@
+Python,Google App engine -About the experiment 
+Python 
+*It is a general purpose ,high level programming language
+*It supports mutiple programming paradigms including Object oriented,imperative,functional programming /procedural styles
+Google App engine is a google developer tool which lets users run applications on Google's infrastructure.
+A Python web app interacts with App engine server using WSGI protocol
+Google app engine also includes webapp2 (a framework)
+Configuration information is present in app.yaml
+Google app engine also provides jinja2 for templating and google data store for storing data as objects.
+
+Installing GAE in Ubuntu
+
+
+mkdir google_projects
+cd google_projects
+wget -o gae.zip "https://www.googleappengine.googlecode.com/files/google_app_engine_1.7.1.zip"
+unzip gae.zip
+rm gae.zip
+
+Executing the blog application 
+Place the folder myblogapp in google_projectsfolder
+
+cd google_projects
+google_appengine/dev_appserver.py myblogapp
+goto browser and type localhost:8080/ and you should see myblogapp deployed .
+
+
